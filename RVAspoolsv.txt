@@ -1,0 +1,48 @@
+# RVA List from WinDBG (x86) for spoolsv.exe. These RVAs are for the SPOOLER_main function that will be replaced. This doesn't crash the spooler service, it suspends it depending on your shellcode.
+================================================================
+# Windows XP SP 3 (SHA256:05369c6943adff081b06400adc4d26fec81972b53f11ad079f51412ad07c2978) 58Kb
+RVA for x86 winXP, x spoolsv!SPOOLER_MAIN
+4774 (0x004774)
+
+
+# Windows Server 2003 Enterprise
+Fails to load in windbg?? no idea why. Best to leave this out. Probably a symbol server issue
+
+# Windows 7 Standard (Verified Working) (SHA256:cc63239c412067aa72318adb8bb80bcdf2ca60da05d814d32753c92508bc16a8) 310kb
+RVA for x86 win7, x spoolsv!SPOOLER_main
+16b31 (0x016b31)
+
+# Server 2008 Sp2 (SHA265:2578545cfd647fb18f217b33c8cb4f0184a35f548659494056e455020cc15fb0) 125Kb
+RVA for x86 2008Server.Standard, x spoolsv!SPOOLER_main
+99ea (0x0099ea)
+
+# Windows 8 Standard (Verified Working) (SHA265:771cfd6d6474de9cf0abaf2af3e800125217cc7eaea92d6d04f8274080961e5e) 485Kb
+RVA for x86 win8.Standard, x spoolsv!SPOOLER_main **Note, Windbg x86 for this binary must be run on an actual server like 2012! Cannot debug on Win7)**
+2837f (0x02837f)
+
+
+RVA List from WinDBG (x64)  spoolsv.exe
+================================================================
+
+# Windows Server 2003 Enterprise
+Never found product key for this, cannot grab files
+
+# Windows 7 Standard (Verified Working) (SHA265:af0a85066a7983878dc1c663811ce61c6ca1912dc956184f878b7b82db93c651) 546Kb
+RVA for x64 win7, x spoolsv!SPOOLER_main
+f48c (0x00f48c)
+
+# Server 2008 Standard (Verified Working) (SHA265:af0a85066a7983878dc1c663811ce61c6ca1912dc956184f878b7b82db93c651) 546Kb
+RVA for x64 2008Server.Standard, x spoolsv!SPOOLER_main
+f48c (0x00f48c)
+
+# Windows 8 Standard (Verified Working) (SHA265:9275abfa1e1e595969a71c0da228d18d1b868bf46e097e1276142bd80f8a32c9) 808Kb
+RVA for x64 win8.Standard, x spoolsv!SPOOLER_main **Note, Windbg x64 for this binary must be run on an actual server! Cannot debug on Win7)**
+54540 (0x054540)
+
+# Windows 8.1 Enterprise (SHA265:42ea50869752164764dfe8ce7e1c247be8342a0c15f39158dc808e8a692c460f) 780Kb
+RVA for x64 win8.Standard, x spoolsv!SPOOLER_main **Note, Windbg x64 for this binary must be run on an actual server! Cannot debug on Win7)**
+527b4 (0x0527b4)
+
+# Server 2012 R2 Standard (SHA265:9275abfa1e1e595969a71c0da228d18d1b868bf46e097e1276142bd80f8a32c9) 808Kb
+RVA for x64 2012R2Server.STandard, xspoolsv!SPOOLER_MAIN **Note, Windbg x64 for this binary must be run on an actual server! Cannot debug on Win7)**
+54540 (0x054540)

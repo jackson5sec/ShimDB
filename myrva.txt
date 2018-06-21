@@ -1,0 +1,1 @@
+.foreach ( place { lm1ma ${$arg1} } ){ .printf "Rva for input is %x\n", ${$arg1}-${place} }
