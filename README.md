@@ -9,6 +9,8 @@ There are two ways to install SDB files.
 
 2. Using sdb-explorer (sdb-explorer.exe -r `<path to file.sdb>` -a `<application you are shimming like spoolsv.exe>` **This is safer** does not leave behind uninstaller and doesn't copy the sdb to a default location in C:\Windows
 
+# App Compat Toolkit Tricks
+
 **x64hideRegistry**: Will hide registry entries and redirect them to HKLM\Software\Microsoft\Windows NT\CurrentVersion\EFS (this is usually empty) for reg.exe and regedit.exe
 
 1. HKLM\Software\Microsoft\Windows NT\CurrentVersion\Custom
