@@ -1,3 +1,5 @@
+see wiki: https://github.com/jackson5-sec/ShimDB/wiki/Creating-FixIT-SDBs
+
 # Shim Database In-Memory Patch Persistence
 A persistence technique used by nations and organized crime actors
 
